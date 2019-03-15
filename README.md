@@ -64,6 +64,4 @@ module.exports = {
 
 refer to this file
 
-```js
 [Example Webpack in styleguide.config.js file](styleguide.config.js)
-```
