@@ -63,9 +63,5 @@ module.exports = {
 ## Update your styleguide.config.js
 
 ```js
-module.exports = {
-  propsParser: require('react-docgen-typescript').withCustomConfig(
-    './tsconfig.json'
-  ).parse
-}
+[Example Webpack in styleguide.config.js file](styleguide.config.js)
 ```
