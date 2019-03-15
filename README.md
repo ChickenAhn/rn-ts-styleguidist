@@ -1,20 +1,39 @@
 # ReactNative + Typescript + Styleguidist
 
-🤔 What is next? 🌮
+🤔 Next thing to do? 🌮
 
 ## Install packages
 
+- Typescript packages
+
 ```sh
-yarn add --dev typescript
-yarn add --dev react-native-typescript-transformer
+yarn add --dev typescript react-docgen-typescript react-native-typescript-transformer
+```
+
+- Generate tsconfig.json file
+
+```sh
 yarn tsc --init --pretty --jsx react
+```
+
+```sh
 touch rn-cli.config.js
+```
+
+- Types
+
+```sh
 yarn add --dev @types/react @types/react-native @types/react-test-renderer
-yarn add react-styleguidist react-docgen-typescript
+```
 
-yarn add -D @babel/core @babel/plugin-proposal-class-properties @babel/plugin-proposal-object-rest-spread @babel/polyfill @babel/preset-env babel-loader babel-plugin-react-native-web file-loader metro-react-native-babel-preset react-art react-dom react-native-web react-styleguidist webpack
+```sh
+yarn add react-styleguidist
+```
 
-yarn add -D webpack-cli webpack-dev-server ts-loader @types/react-dom @types/jest
+- Some packages for react-native-web and styleguidist
+
+```sh
+yarn add -D @babel/core @babel/plugin-proposal-class-properties @babel/plugin-proposal-object-rest-spread @babel/polyfill @babel/preset-env babel-loader babel-plugin-react-native-web file-loader metro-react-native-babel-preset react-art react-dom react-native-web react-styleguidist webpack webpack-cli webpack-dev-server ts-loader @types/react-dom @types/jest
 ```
 
 ## rn-cli.config.js
