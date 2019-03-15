@@ -1,5 +1,7 @@
 # ReactNative + Typescript + Styleguidist
 
+🤔 What is next? 🌮
+
 ## Install packages
 
 ```sh
